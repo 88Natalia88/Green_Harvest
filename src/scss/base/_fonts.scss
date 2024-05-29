@@ -1,12 +1,20 @@
 @font-face{
-    font-family: 'Lato-Hairline';
+    font-family: 'InterTight-Medium';
     font-display: swap;
-    src: url('../fonts/Lato-Hairline.woff') format('woff'), url('../fonts/Lato-Hairline.woff2') format('woff2');
+    src: url('../fonts/InterTight-Medium.woff') format('woff'), url('../fonts/InterTight-Medium.woff2') format('woff2');
 }
 
 
+@font-face{
+    font-family: 'InterTight-Bold';
+    font-display: swap;
+    src: url('../fonts/InterTight-Bold.woff') format('woff'), url('../fonts/InterTight-Bold.woff2') format('woff2');
+}
 
 
-
-
+@font-face{
+    font-family: 'InterTight-SemiBold';
+    font-display: swap;
+    src: url('../fonts/InterTight-SemiBold.woff') format('woff'), url('../fonts/InterTight-SemiBold.woff2') format('woff2');
+}
 
