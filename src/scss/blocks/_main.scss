@@ -4,6 +4,9 @@
     
     &__section{
         display: flex;
+        &_1{
+            height: 800px;
+        }
     }
     
     &__name{
@@ -14,11 +17,12 @@
     &__title{
         margin-top: 238px;
         font-size: 76px;
+        line-height: 76px;
         text-transform: uppercase;
         font-family: $semiBold, sans-serif;
     }
     &__subtitle{
-        margin: 128px 0 50px 0;
+        margin-top: 128px;
         font-size: 16px;
     }
     &__image{
@@ -83,9 +87,9 @@
         padding: 12px 24px;
 }
     &__circle{
-        width: 52px;
+        min-width: 52px;
         height: 52px;
-        border: 5px solid rgba(122, 49, 69, 0.3);
+        border: 5px solid rgba(255, 255, 255, 0.6);
         background-color: $bright-color;
         border-radius: 50%;
         -webkit-border-radius: 50%;

@@ -1,0 +1,66 @@
+.header{
+    position: relative;
+    &__wrap{
+        position: absolute;
+        top: 32px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__logo-img{
+        height: 18px;
+    }
+    
+    &__menu-list{
+        display: flex;
+        gap: 8px;
+    }
+    &__menu-item{
+        height: 44px;
+        padding: 12px;
+        border: 1px solid rgba(251, 251, 251, 0.4);
+        border-radius: 12px;
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+        -ms-border-radius: 12px;
+        -o-border-radius: 12px;
+        cursor: pointer;
+        &:hover{
+            background-color: rgba(251, 251, 251, 0.4);
+        }
+        &_btn{
+            margin-left: 12px;
+            height: 52px;
+            width: 157px;
+            border: 1px solid $bright-color;
+            background-color: $bright-color;
+            border-radius: 30px;
+            -webkit-border-radius: 30px;
+            -moz-border-radius: 30px;
+            -ms-border-radius: 30px;
+            -o-border-radius: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            &:hover{
+                background-color: #622133;
+            }
+    }
+    }
+    &__menu-link{
+        color: $main-color;
+    }
+    &__menu-button{
+        color: $main-color;
+        font-size: 18px;
+        font-family: $semiBold, sans-serif;
+        text-transform: uppercase;
+        line-height: 20px;
+    }
+}
